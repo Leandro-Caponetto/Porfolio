@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 'Poppins',sans-serif;
+}
+
+
+
+.cert img{
+    width: 100%;
+    height: auto;
+}
+
+.icon{
+    border-radius: 50%;
+    background-color: #16f4d0;
+    position: fixed;
+    top: 100px;
+    left: 50px;
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    
+    transition: 1s;
+}
+
+.icon:hover {
+    opacity: .5;
+    color: red;
+    
+}
