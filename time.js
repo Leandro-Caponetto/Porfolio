@@ -10,7 +10,7 @@ function generateTime() {
     //  Concatenando variables | Usando ES5 
     // let mainTime = hours + ":" + minutes + ":" + seconds;
      //  Concatenando variables | Usando ES6: Template Strings (Template literals) 
-    let mainTime = `${hours} h   ${minutes} m   ${seconds} s `;
+    let mainTime = `${hours} h ${minutes} m   ${seconds} s `;
     // Escribo la hora en el elemento h1 con id="time"
     document.getElementById("time").innerHTML = mainTime;
   
